@@ -1,0 +1,5 @@
+#to extract individual images from animation: 
+convert -coalesce ./211007_S1P1_10s_1mM_Glut.tif movie/%03d.jpg
+#make animations from image:
+convert -set delay 3 -colorspace GRAY -colors 16 -dispose 1 -loop 0 -scale 100% ./movie/segmented/*.jpg segmented.gif
+#please refer to this link for more resources   https://lewtun.github.io/hepml/lesson06_persistent-homology/
