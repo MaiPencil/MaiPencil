@@ -1,2 +1,3 @@
-- Cathy Do
+- Cathy Do | Bioinformatician | Computational Biologist
 - cdo2@usf.edu
+- cathy.do@moffitt.org
